@@ -1,0 +1,13 @@
+<ul id="launches">
+  {{ range .Params.launches }}  
+  <li>
+    <a href="gpx"><img height=25 width=25 src="/gpx_icon.png"/></a>
+    <a href="earth"><img height=25 width=25 src="/Google-Earth-icon.png"/></a>
+    <a href="gallery"><img height=25 width=25 src="/gallery.png"/></a>
+    <a href="{{ "/launches/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+  </li>
+
+
+
+  {{ end }}
+</ul>

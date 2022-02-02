@@ -1,0 +1,52 @@
+[[main]]
+  identifier = "about"
+  name = "About"
+  url = "about"
+  weight = 1
+
+[[main]]
+  identifier = "projects"
+  name = "Projects"
+  url = "projects"
+  weight = 1
+
+[[main]]
+  identifier = "places"
+  name = "Places"
+  url = "places"
+  weight = 2
+
+[[main]]
+  identifier = "posts"
+  name = "Posts"
+  url = "posts"
+  weight = 3
+
+[[main]]
+  identifier = "notes"
+  name = "Notes"
+  url = "notes"
+  weight = 5
+
+[[main]]
+  identifier = "gallery"
+  name = "Gallery"
+  url = "gallery"
+  weight = 6
+    
+[[main]]
+  parent = "gallery"
+  name = "Youbou"
+  url = "gallery/youbou"
+
+[[main]]
+  parent = "gallery"
+  name = "Photo"
+  url = "gallery/photo"
+
+[[main]]
+  identifier = "archive"
+  name = "Archive"
+  url = "archive"
+  weight = 6
+
