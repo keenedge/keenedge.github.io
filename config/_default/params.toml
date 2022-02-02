@@ -67,7 +67,7 @@ bioImageUrl = ""
 useGravatar = false
 location = "Victoria, BC, Canada"
 organization = "x/isle"
-link = "https://xisle.net"
+link = "http://kb.xisle.net"
 
 # sidebar
 enableBio = true
