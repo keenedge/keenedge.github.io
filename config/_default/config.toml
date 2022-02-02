@@ -1,4 +1,4 @@
-baseURL = "https://kb.xisle.net"
+baseURL = "http://kb.xisle.net"
 title = "X/ISLE"
 theme = "zzo"
 
