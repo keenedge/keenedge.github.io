@@ -8,3 +8,14 @@ date= 2021-05-25T12:00:06+09:00
 +++
 
 Check the salt stack docs
+
+
+
+### Manage Salt Keys
+    salt-key -L
+    salt-key -A
+
+
+## apply salt states
+    salt '*' state.apply
+
