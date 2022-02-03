@@ -1,161 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" 
-  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
-  xmlns:dc="http://purl.org/dc/elements/1.1/" 
-  xmlns:atom="http://www.w3.org/2005/Atom" 
-  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
-  xmlns:media="http://search.yahoo.com/mrss/">
-  <channel>
-    <title>X/ISLE</title>
-    <link>http://xisle.net/</link>
-    <description>Recent content on X/ISLE</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <managingEditor>gtissington@gmail.com (max-thrust)</managingEditor>
-    <webMaster>gtissington@gmail.com (max-thrust)</webMaster>
-    <copyright>©2021, All Rights Reserved</copyright>
-    <lastBuildDate>Wed, 30 Jun 2021 21:16:26 -0700</lastBuildDate>
-    
-        <atom:link href="http://xisle.net/index.xml" rel="self" type="application/rss+xml" />
-    
-      
-      
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-
-      
-      <item>
-        <title>Trailer</title>
-        <link>http://xisle.net/notes/trailer/</link>
-        <pubDate>Wed, 30 Jun 2021 21:16:26 -0700</pubDate>
-        <author>gtissington@gmail.com (max-thrust)</author>
-        <atom:modified>Wed, 30 Jun 2021 21:16:26 -0700</atom:modified>
-        <guid>http://xisle.net/notes/trailer/</guid>
-        <description> Fridge does not keep cool at 40+ for 3 days. A/C strugles over 35. Barely keeps up.  </description>
-        
-        <dc:creator>max-thrust</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>Kings Peak Hike N Fly</title>
-        <link>http://xisle.net/posts/kings-peak-hike-n-fly/</link>
-        <pubDate>Tue, 25 May 2021 21:32:03 -0700</pubDate>
-        <author>gtissington@gmail.com (max-thrust)</author>
-        <atom:modified>Tue, 25 May 2021 21:32:03 -0700</atom:modified>
-        <guid>http://xisle.net/posts/kings-peak-hike-n-fly/</guid>
-        <description>Saturday looked like it may produce decent weather for a trip to King’s Peak so I started asking around to see who was interested in joining me. It is surprisingly difficult to find people who want to hike a Paraglider 2065m and 6 hours up a distant peak just for a sled run down. By Friday evening I&amp;rsquo;d given up and was planning to go to Bridal Falls for the weekend.</description>
-        
-        <dc:creator>max-thrust</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>Kitchener Reserve Toss</title>
-        <link>http://xisle.net/posts/kitchener-reserve-toss/</link>
-        <pubDate>Tue, 25 May 2021 21:31:38 -0700</pubDate>
-        <author>gtissington@gmail.com (max-thrust)</author>
-        <atom:modified>Tue, 25 May 2021 21:31:38 -0700</atom:modified>
-        <guid>http://xisle.net/posts/kitchener-reserve-toss/</guid>
-        <description>Summary: While thermalling at a site and location that I am familiar with I experienced unexpected
-turbulence. The glider collapsed. I was unable to recover the glider so I tossed the reserve and
-crashed into the trees just below launch. Descent was complicated and delayed due to lack
-of required equipment. However with the help of the other pilots present I was able to safely
-descend. No injuries. Not even a scratch.</description>
-        
-        <dc:creator>max-thrust</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>Salt Stack Notes</title>
-        <link>http://xisle.net/notes/salt-stack/</link>
-        <pubDate>Tue, 25 May 2021 12:00:06 +0900</pubDate>
-        <author>gtissington@gmail.com (max-thrust)</author>
-        <atom:modified>Tue, 25 May 2021 12:00:06 +0900</atom:modified>
-        <guid>http://xisle.net/notes/salt-stack/</guid>
-        <description>Check the salt stack docs</description>
-        
-        <dc:creator>max-thrust</dc:creator>
-        
-        
-        
-        
-          
-            
-              <category>index</category>
-            
-          
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>Chart support</title>
-        <link>http://xisle.net/posts/tree-rescue/</link>
-        <pubDate>Mon, 18 Nov 2019 12:00:06 +0900</pubDate>
-        <author>gtissington@gmail.com (max-thrust)</author>
-        <atom:modified>Mon, 18 Nov 2019 12:00:06 +0900</atom:modified>
-        <guid>http://xisle.net/posts/tree-rescue/</guid>
-        <description>{&amp;quot;type&amp;quot;: &amp;quot;bar&amp;quot;,&amp;quot;data&amp;quot;: {&amp;quot;labels&amp;quot;: [&amp;quot;One&amp;quot;, &amp;quot;Two&amp;quot;, &amp;quot;Three&amp;quot;, &amp;quot;Four&amp;quot;, &amp;quot;Five&amp;quot;, &amp;quot;Six&amp;quot;],&amp;quot;datasets&amp;quot;: [{&amp;quot;label&amp;quot;: &amp;quot;# of Votes&amp;quot;,&amp;quot;data&amp;quot;: [12, 19, 3, 5, 3, 8]}]}}{&amp;quot;type&amp;quot;: &amp;quot;line&amp;quot;,&amp;quot;data&amp;quot;: {&amp;quot;labels&amp;quot;: [&amp;quot;One&amp;quot;, &amp;quot;Two&amp;quot;, &amp;quot;Three&amp;quot;, &amp;quot;Four&amp;quot;, &amp;quot;Five&amp;quot;, &amp;quot;Six&amp;quot;],&amp;quot;datasets&amp;quot;: [{&amp;quot;label&amp;quot;: &amp;quot;# of Votes&amp;quot;,&amp;quot;data&amp;quot;: [12, 19, 3, 5, 2, 3],&amp;quot;backgroundColor&amp;quot;:&amp;quot;transparent&amp;quot;,&amp;quot;borderColor&amp;quot;:&amp;quot;orange&amp;quot;},{&amp;quot;label&amp;quot;: &amp;quot;Some other set&amp;quot;,&amp;quot;data&amp;quot;: [15, 8, 13, 5, 5, 9],&amp;quot;backgroundColor&amp;quot;:&amp;quot;transparent&amp;quot;,&amp;quot;borderColor&amp;quot;:&amp;quot;#44ccff&amp;quot;}]}}</description>
-        
-        <dc:creator>max-thrust</dc:creator>
-        <media:content url="http://xisle.netimages/feature1/graph.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-          
-        
-        
-          
-            
-              <category>diagram</category>
-            
-          
-        
-        
-          
-            
-          
-        
-      </item>
-      
-
-    
-  </channel>
-</rss>
