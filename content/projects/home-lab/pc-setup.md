@@ -34,3 +34,7 @@ First we need to clone a repo to get the setup scripts
     New-VM -Name "VM-TEST" -Path "C:\VM" -MemoryStartupBytes 4GB -NewVHDPath "C:\VM\VM-TEST\VM-TEST-C.vhdx" -NewVHDSizeBytes 30GB -Generation 2 -Switch "Default Switch" -BootDevice NetworkAdapter
 
     Set-VM -Name "VM-TEST" -ProcessorCount 2
+
+    Set-VMDvdDrive -VMName TestVM -Path .\WinBuild.iso
+
+    
