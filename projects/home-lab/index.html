@@ -23,7 +23,7 @@
 <meta property="og:url" content="https://kb.xisle.net/projects/home-lab/">
 <meta property="og:type" content="website">
 <meta property="og:description" content="The Zzo theme for Hugo example site.">
-<meta name=generator content="Hugo 0.92.1">
+<meta name=generator content="Hugo 0.92.2">
 <meta name=msapplication-TileColor content="#fff">
 <meta name=theme-color content="#fff">
 <meta name=msapplication-navbutton-color content="#fff">
@@ -209,6 +209,62 @@ Gallery<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0
 <h5 class="list__header--title capitalize h5">Home Lab</h5>
 </header>
 <div class="list__header--desc single__contents p2">
+<p><a href=https://www.deploymentresearch.com/>Build the Perfect Windows Image</a>building-the-perfect-windows-server-2019-reference-image/</p>
+<ol>
+<li>Setup ProxMox</li>
+<li>Make a Custom Server ISO (19/22)</li>
+<li>Make a customer Client ISO (10/11)</li>
+<li>Install Server ISO to Prox Mox</li>
+<li>Install Client ISO to Prox Mox</li>
+</ol>
+<p>Network Description</p>
+<p>LisghtSpeed</p>
+<ul>
+<li>Modem
+<ul>
+<li>R700P
+<ul>
+<li>
+<p>2816</p>
+<ul>
+<li>Virt-01</li>
+</ul>
+</li>
+<li>
+<p>Wifi</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>Virt-01</p>
+<ul>
+<li>
+<p>DC01</p>
+</li>
+<li>
+<p>MDT01</p>
+</li>
+<li>
+<p><a href=windows-server-iso-build>Build a Windows Server Install ISO</a></p>
+</li>
+<li>
+<p><a href=https://10.0.0.200:8006>Prox Mox</a></p>
+</li>
+<li>
+<p>DC01 - wWindows Server 2019 Domain controller</p>
+<ul>
+<li>AD Domain Controller</li>
+<li>WSUS</li>
+<li>DHCP</li>
+<li>DNS</li>
+</ul>
+</li>
+<li>
+<p>MDT01 - Windows Server 2019 Deployment Server</p>
+</li>
+</ul>
 <p>[pc-setup]</p>
 </div>
 <div class=summary__container data-display=block>
@@ -216,14 +272,56 @@ Gallery<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0
 <div class=summary-classic__flex-box>
 <div class=summary-classic__content>
 <header>
-<h5 class="title h5"><a href=https://kb.xisle.net/projects/home-lab/hyper-v/></a> </h5>
+<h5 class="title h5"><a href=https://kb.xisle.net/projects/home-lab/mdt/></a> </h5>
 <h6 class="subtitle caption">
 <time title="Written At" dir=ltr>📅&nbsp;Jan 1, 0001 </time>
-<span title="Reading Time" dir=ltr> &#183; ☕&nbsp;0&nbsp;min read </span>
+<span title="Reading Time" dir=ltr> &#183; ☕&nbsp;1&nbsp;min read </span>
 </h6>
 </header>
 <div>
 <div class="summary-classic__text p2">
+https://www.dell.com/support/kbdoc/en-us/000121955/installing-active-directory-domain-services-and-promoting-the-server-to-a-domain-controller
+New-NetIPAddress -IPAddress 10.0.0.201 -DefaultGateway 10.0.0.1 -PrefixLength 24 -InterfaceIndex (Get-NetAdapter).InterfaceIndex
+# connect to the remote machine $c = Get-Credential $s = New-PSSession -ComputerName 10.0.0.201 -Credential $c Enter-Psssession $s # Make the machine a domain controller Add-WindowsFeature AD-Domain-Services Install-ADDSForest -DomainName xisle.net -InstallDNS # join the domain To join the domain point to the dns server qm create 110 &ndash;name dc-01 &ndash;cores 2 &ndash;ide0 local-lvm:32 &ndash;ide2 local:iso/Server2019.iso,media=cdrom &ndash;machine pc-i440fx-6.1 &ndash;memory 4096 &ndash;meta creation-qemu=6.
+</div>
+</div>
+</div>
+</div>
+<hr>
+</article>
+<article class=summary-classic data-ani=true>
+<div class=summary-classic__flex-box>
+<div class=summary-classic__content>
+<header>
+<h5 class="title h5"><a href=https://kb.xisle.net/projects/home-lab/powershell-commands/></a> </h5>
+<h6 class="subtitle caption">
+<time title="Written At" dir=ltr>📅&nbsp;Jan 1, 0001 </time>
+<span title="Reading Time" dir=ltr> &#183; ☕&nbsp;1&nbsp;min read </span>
+</h6>
+</header>
+<div>
+<div class="summary-classic__text p2">
+Enable Ping
+Set-NetFirewallRule -DisplayName &ldquo;File and Printer Sharing (Echo Request - ICMPv4-In)&rdquo; -enabled True
+</div>
+</div>
+</div>
+</div>
+<hr>
+</article>
+<article class=summary-classic data-ani=true>
+<div class=summary-classic__flex-box>
+<div class=summary-classic__content>
+<header>
+<h5 class="title h5"><a href=https://kb.xisle.net/projects/home-lab/windows-server-iso-build/></a> </h5>
+<h6 class="subtitle caption">
+<time title="Written At" dir=ltr>📅&nbsp;Jan 1, 0001 </time>
+<span title="Reading Time" dir=ltr> &#183; ☕&nbsp;1&nbsp;min read </span>
+</h6>
+</header>
+<div>
+<div class="summary-classic__text p2">
+Build Window Server ISO
 </div>
 </div>
 </div>
@@ -283,7 +381,13 @@ New-Item -Path 'D:\MDT\MDT-BUILD' -ItemType Directory -Force New-Item -Path 'D:\
 </div>
 </div>
 <li class=sidebar-recent>
-<a href=/projects/home-lab/hyper-v/ class="sidebar-recent__title p1"></a>
+<a href=/projects/home-lab/mdt/ class="sidebar-recent__title p1"></a>
+</li>
+<li class=sidebar-recent>
+<a href=/projects/home-lab/powershell-commands/ class="sidebar-recent__title p1"></a>
+</li>
+<li class=sidebar-recent>
+<a href=/projects/home-lab/windows-server-iso-build/ class="sidebar-recent__title p1"></a>
 </li>
 <li class=sidebar-recent>
 <a href=/projects/home-lab/pc-setup/ class="sidebar-recent__title p1">pc-setup</a>
