@@ -38,7 +38,7 @@ $packages = @{
     ;"OpenWhisperSystems.Signal" = ""
     ;"WhatsApp.WhatsApp" = ""
     ;"SlackTechnologies.Slack" = ""
-
+    ;"balena.etcher" = ""
 }
     
 foreach( $key in $packages.keys) {
