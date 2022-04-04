@@ -208,8 +208,8 @@ commento = false
   name = "twitter"
 
 [[footerLinks]]
-  name = ""
-  link = ""
+  name = "Edit"
+  link = "https://github.com/keenedge/keenedge.github.io"
 [[footerLinks]]
   name = ""
   link = ""
